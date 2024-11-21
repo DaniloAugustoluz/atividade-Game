@@ -1,0 +1,523 @@
+/*      fonts imports    */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Estilos base para dispositivos móveis (default) */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    max-width: 425px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 425px;
+    height: auto;
+}
+
+.main img{
+    width: 425px;
+    height: 100%;
+}
+
+
+.info-1{
+    width: 425px;
+    height: 100px;
+    position: absolute;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.info-1 h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: darkgray;
+    font-size: 70px;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    border-radius: 15px;
+    padding: 10px;
+    width: 230px;
+    height: 200px;
+    z-index: 100;
+    box-shadow: 4px 2px 15px 2px black;
+    border-radius: 30px;
+}
+
+.menu button{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-style: normal;
+    width: 140px;
+    height: 35px;
+    border-radius: 50px;
+    margin: 12px;
+    border: none;
+    background-color: #f4f5dd;
+    color: #676e30;
+    box-shadow: 3px 2px 22px 2px #676e30;
+
+    z-index: 100;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu button:hover{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-style: normal;
+    width: 140px;
+    height: 35px;
+    border-radius: 50px;
+    margin: 12px;
+    border: none;
+    background-color: #676e30;
+    color: #f4f5dd;
+    transition: 0.3s;
+    border: 1px solid #676e30;
+    z-index: 100;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.img-ilustration{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 28%;
+    z-index: 100;
+}
+
+.img-ilustration img{
+    width: 120px;
+    height: 120px;
+
+}
+
+
+
+
+/*     LOGIN       */
+.main-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 425px;
+    height: 100%;
+}
+
+.main-login img{
+    width: 425px;
+    height: 100%;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    z-index: 100;
+    box-shadow: 4px 4px 10px black;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-style: normal;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.input input{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-style: normal;
+    margin: 5px;
+    height: 18px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+
+.acesso{
+    top: 30%;
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    padding: 10px;
+    color: black;
+}
+.subtitle{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 10px black;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    bottom: 25%;
+    border-radius: 15px;
+}
+
+.buttons button{
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #8a4d12;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.akangatu-title{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    position: relative;
+    font-size: 40px;
+    color: black;
+    border: 6px solid #8a4d12;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+
+/*      PÁGINA COMO JOGAR   */
+.main-comojogar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 425px;
+    height: 100%;
+    background-color: #f4f5dd;
+}
+
+.main-comojogar img{
+    width: 425px;
+    height: 90%;
+    border-radius: 85px;
+}
+
+.instrucoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 380px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    padding: 10px;
+    color: whitesmoke;
+    z-index: 100;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    color: #f4f5dd;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.title h3{
+    font-size: 16px;
+    padding: 10px;
+    background-color: #f4f5dd;
+    color: #8a4d12;
+    border-radius: 15px;
+}
+
+.item{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 13px;
+    margin: 30px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.item ul{
+    list-style: none;
+}
+
+.acao button{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-style: normal;
+    width: 140px;
+    height: 35px;
+    border-radius: 50px;
+    margin: 12px;
+    border: none;
+    background-color: #f4f5dd;
+    color: #8a4d12;
+    z-index: 100;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+/*      PÁGINA HISTÓRIA     */
+.main-historia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 425px;
+    height: 100%;
+}
+
+.main-historia img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 425px;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f4f5dd;
+    margin: 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
+
+.item-card h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.item-card p{
+    font-size: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+.personagens{
+    width: 425px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-persona{
+    width: 400px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.item-persona h3{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.item-persona p{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 9px;
+}
+
+.item-persona img{
+    width: 5%;
+    box-shadow: 5px -2px 10px black;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+
+.button-voltar{
+    width: 425px;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button-voltar button{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 10px;
+    width: 25%;
+    height: 25px;
+    background-color: #f4f5dd;
+
+}
+
+
+
+
+
+
+/* Ajustes para telas maiores */
+@media (min-width: 600px) {
+    /* Estilos para tablets ou telas médias */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    /* Estilos para tablets maiores ou telas entre médias e grandes */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+    /* Estilos para desktops */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1440px) {
+    /* Estilos para telas grandes */
+}
