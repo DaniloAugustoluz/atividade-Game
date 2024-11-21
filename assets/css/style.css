@@ -18,7 +18,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 425px;
-    height: auto;
+    height: 100%;
 }
 
 .main img{
