@@ -373,12 +373,12 @@ body{
     margin: 10px;
     border-radius: 10px;
     width: 400px;
-    height: auto;
+    height: 100px;
     padding: 10px;
 }
 
 .item-card h3{
-    font-size: 15px;
+    font-size: 10px;
     text-transform: uppercase;
     font-weight: 800;
     font-family: "Quicksand", sans-serif;
@@ -386,7 +386,7 @@ body{
 }
 
 .item-card p{
-    font-size: 10px;
+    font-size: 8px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -429,7 +429,8 @@ body{
 }
 
 .item-persona img{
-    width: 5%;
+    width: 40px;
+    height: 55px;
     box-shadow: 5px -2px 10px black;
     border-radius: 10px;
     margin-bottom: 7px;
