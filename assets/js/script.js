@@ -17,3 +17,15 @@ function voltarInicio(){
 function informarFuncao(){
     window.alert('Função não implementada!')
 }
+
+function escolherAvatar(){
+    window.location.href = "avatar.html"
+}
+
+function conviteJogar(){
+    window.location.href = "Convitejogar.html"
+}
+
+function jogarAgora(){
+    window.location.href = "jogar.html"
+}
