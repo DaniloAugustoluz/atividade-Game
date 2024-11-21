@@ -29,3 +29,8 @@ function conviteJogar(){
 function jogarAgora(){
     window.location.href = "jogar.html"
 }
+
+function finalizarJogo(){
+    window.alert('Parabéns, você finalizou sua jornada!')
+    window.location.href = "index.html"
+}

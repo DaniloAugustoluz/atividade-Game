@@ -600,6 +600,16 @@ body{
     font-optical-sizing: auto;
 }
 
+.game{
+    width: 420px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f5dd;
+}
+
 
 
 
