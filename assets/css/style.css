@@ -606,65 +606,220 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Ajustes para telas maiores */
-@media (min-width: 600px) {
-    /* Estilos para tablets ou telas médias */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 768px) {
-    /* Estilos para tablets maiores ou telas entre médias e grandes */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*      ########### DESKTOP ###########     */
 @media (min-width: 1024px) {
     /* Estilos para desktops */
+    body{
+        width: 1024px;
+        height: 100vh;
+    }
+    .main{
+        width: 1024px;
+        height: 100%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .main img{
+        width: 1024px;
+        height: 100%;
+    }
+
+    .img-ilustration{
+        width: 200px;
+        height: 250px;
+        margin: 0px;
+        display: flex;
+        top: 23%;
+    }
+
+    .img-ilustration img{
+        width: 200px;
+        height: 250px;
+    }
+
+    .menu{
+        width: 600px;
+        height: 500px;
+        margin: 0px;
+    }
+    .menu button{
+        width: 300px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+
+    /*      PÁGINA DE LOGIN    */
+    .main-login{
+        width: 1024px;
+        height: 100vh;
+    }
+    .main-login img{
+        width: 1024px;
+        height: 100vh;
+    }
+    .login{
+        width: 600px;
+        height: 700px;
+    }
+    .input{
+        width: 600px;
+        height: 700px;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-style: normal;
+    }
+    .input input{
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-style: normal;
+        margin: 5px;
+        height: 28px;
+        width: 400px;
+        border-radius: 5px;
+    }
+
+
+
+    .acesso{
+        top: 60%;
+        font-size: 38px;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        padding: 10px;
+        color: black;
+    }
+    .subtitle{
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: black;
+    }
+    
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f5dd;
+        box-shadow: 4px 4px 10px black;
+        width: 700px;
+        height: 180px;
+        position: absolute;
+        bottom: 10%;
+        border-radius: 15px;
+    }
+    
+    .buttons button{
+        margin: 5px;
+        width: 200px;
+        height: 80px;
+        border: none;
+        border-radius: 25px;
+        background-color: #8a4d12;
+        color: whitesmoke;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 25px;
+    }
+
+
+
+
+    /*  PÁGINA DE AVATAR    */  
+    .container{
+        width: 1024px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .h3-avatar{
+        font-size: 40px;
+        padding: 25px;
+    }
+    .info{
+        width: 1024px;
+        height: 100vh;
+    }
+    .item-1{
+        width: 400px;
+        height: 700px;
+    }
+    .item-1 .img-avatar{
+        width: 300px;
+        height: 500px;
+        
+    }
+    .item-1 img{
+        width: 300px;
+        height: 500px;
+        
+    }
+
+    .item-2{
+        width: 400px;
+        height: 700px;
+    }
+    .item-2 .img-avatar{
+        width: 300px;
+        height: 500px;
+        
+    }
+    .item-2 img{
+        width: 300px;
+        height: 500px;
+        
+    }
+    
+    .buttons-avatar{
+        width: 800px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttons-avatar button{
+        width: 300px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+
+    /*      PÁGINA DE CONVITE       */
+    .main-convite{
+        width: 1024px;
+        height: 100vh;
+    }
+    .info-convite{
+        width: 600px;
+        height: 300px;
+    }
+    .buttons-convite{
+        width: 600px;
+        height: 180px;
+    }
+    .buttons-convite button{
+        width: 500px;
+        height: 180px;
+        font-size: 20px;
+        border-radius: 45px;
+    }
+
 }
 
 
